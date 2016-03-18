@@ -419,7 +419,7 @@ function printStatScreen() {
 
 function recalculateStatScreen() {
 	//////////////////
-	// AVERAGE MASS AgarVIPbots.com//
+	// AVERAGE MASS //
 	/////////////////
 	var tmpLength = Object.size(botMassChain);
 	var i = 0;

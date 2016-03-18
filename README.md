@@ -45,7 +45,7 @@ Install [**NodeJs**] (https://nodejs.org/en/download/package-manager/) and [**Gi
 * **4.** Go to [Facebook] (**Facebook.com**) and login with your account
 * **5.** Get ``c_user, datr and xs cookies`` using the extension you installed***
   * <img src="src/images/cookiesTutorial-2.png" alt="Tutorial" width="80%";"/>
-  * Now copy each of them and paste them in the right position in  **"Facebots.js"** in **"src"** folder and save it
+  * Now copy each of them and paste them in the right position in  **"config.js"** in the main folder and save it
   * <img src="src/images/cookiesTutorial.png" alt="Tutorial" width="80%";"/>
 * **6.** Run these commands in console:
 
@@ -81,6 +81,10 @@ Install [**NodeJs**] (https://nodejs.org/en/download/package-manager/) and [**Gi
 #### Contributors: [hassanila97](https://github.com/hassanila97), [Petterholm](https://github.com/petterholm), [pulviscriptor](https://github.com/pulviscriptor)
 
 
-**You can modify this code for personal use, but you can't claim it as yours, you need to refer to [**this repo**] (http://github.com/camilleeyries/AGAR-XPBOT) in your README.md**
+**You can modify this code for personal use ( commercial use is prohibited ), but you can't claim it as yours, you need to refer to [**this repo**] (http://github.com/camilleeyries/AGAR-XPBOT) in your README.md**
+
+# Links
+
+-AgarVIPbots.com 
 
 <img src="http://forthebadge.com/images/badges/built-with-love.svg" alt="<3" width="30%"/>
