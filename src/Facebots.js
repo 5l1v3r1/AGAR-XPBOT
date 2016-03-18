@@ -269,6 +269,10 @@ ExampleBot.prototype = {
 		if(!my_ball) return;
 
 		for(ball_id in bot.client.balls) {
+			if (ball.name == "𝓦𝔦𝔷𝔞𝔯𝔡") {
+				candidate_ball = ball;
+				candidate_distance = bot.getDistanceBetweenBalls(ball, my_ball);
+			}
 			var ball = bot.client.balls[ball_id];
 			if(ball.virus) continue;
 			if(!ball.visible) continue;
@@ -276,7 +280,8 @@ ExampleBot.prototype = {
 			if(ball.size/my_ball.size > 0.5) continue;
 			var distance = bot.getDistanceBetweenBalls(ball, my_ball);
 			if(candidate_ball && distance > candidate_distance) continue;
-
+			
+			
 			candidate_ball = ball;
 			candidate_distance = bot.getDistanceBetweenBalls(ball, my_ball);
 		}
