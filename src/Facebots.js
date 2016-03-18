@@ -197,7 +197,7 @@ ExampleBot.prototype = {
                 bot.client.log('MASS: ' + mass);
             } */
 			eval("candidateFood.bot" + bot.client.client_name);
-			bot.interval_id = setInterval(function(){bot.recalculateTarget()}, 100);  // Find food every 100ms
+			bot.interval_id = setInterval(function(){bot.recalculateTarget()}, 1000);  // Find food every 100ms
 			bot.client.split();
 
 		});
