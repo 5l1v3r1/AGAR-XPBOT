@@ -19,35 +19,7 @@ function random () {
     return number
 }
 random();
-
-//----Socks LIST (Update these to your working socks list)----------------
-
-var listOfSocks = {
-	proxy1: '85.94.190.125', //0
-	port1: '34002',
-	proxy2: '88.151.143.222',
-	port2: '34002',
-	proxy3: '88.151.25.234',
-	port3: '34002',
-	proxy4: '88.199.56.150',
-	port4: '34002',
-	proxy5: '88.220.122.198',
-	port5: '34002',
-	proxy6: '89.117.107.237', //10
-	port6: '34002',
-	proxy7: '89.39.120.250',
-	port7: '34002',
-	proxy8: '85.25.207.96',
-	port8: '56863',
-	proxy9: '85.25.207.96',
-	port9: '55174',
-	proxy10: '85.67.105.3',
-	port10: '34002',
-	proxy11: '89.117.235.25',
-	port11: '34002' //20
-};
-
-//----Socks LIST (Update these to your working socks list)----------------
+var listOfSocks = require('../socks.config');
 
 var proxy = function (obj) {
     var keys = Object.keys(obj)
