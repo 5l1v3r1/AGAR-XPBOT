@@ -2,14 +2,9 @@
  * Made with <3 by camilleeyries (http://github.com/camilleeyries) (alias Faewui)
  * Using AGARIO-CLIENT (https://github.com/pulviscriptor/agario-client) (pulviscriptor)
  **/
-var Socks;
-try {
-    Socks = require('socks');
-}catch(e){
-    console.log('Failed to load `socks` lib. Install it in examples path using:');
-    console.log('  npm install socks ');
-    process.exit(0);
-}
+
+var Socks = require('socks');
+
 //Make random proxy selection- AgarioCheats
 var number = 0;
 function random () {
