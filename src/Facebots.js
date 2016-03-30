@@ -19,7 +19,6 @@ function random () {
     return number
 }
 random();
-console.log(number);
 
 //----Socks LIST (Update these to your working socks list)----------------
 
@@ -58,9 +57,6 @@ var port = function (obj) {
     var keys = Object.keys(obj)
     return obj[keys[number+1]];
 };
-
-console.log(proxy(listOfSocks));
-console.log(port(listOfSocks));
 
 var AgarioClient = require('agario-client');
 config = require("../config.js");
