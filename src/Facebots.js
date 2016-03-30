@@ -21,14 +21,7 @@ function random () {
 random();
 var listOfSocks = require('../socks.config');
 
-var proxy = function (obj) {
-    var keys = Object.keys(obj)
-    return obj[keys[number]];
-};
-var port = function (obj) {
-    var keys = Object.keys(obj)
-    return obj[keys[number+1]];
-};
+var proxy = listOfSocks[Math.floor(Math.random()*listOfSocks.length)];
 
 var AgarioClient = require('agario-client');
 config = require("../config.js");
@@ -57,8 +50,8 @@ function createAgent() {
                // ipaddress: process.argv[3],
                 //port: parseInt(process.argv[4]),
                 //type: parseInt(process.argv[2])
-                ipaddress: proxy(listOfSocks),
-                port: parseInt(port(listOfSocks)),
+                ipaddress: proxy.ip,
+                port: parseInt(proxy.port),
                 type: parseInt(4)
             }}
     );
