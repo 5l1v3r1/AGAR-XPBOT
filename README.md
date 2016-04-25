@@ -52,7 +52,9 @@ Install [**NodeJs**] (https://nodejs.org/en/download/package-manager/) and [**Gi
 
 ``npm install``
 
-``node src/Start``
+``cd src/``
+
+``node Start.js``
 
 * **7.** Launch Chrome/Firefox and go to Agar.io to see your xp raising. Enjoy :)
 
