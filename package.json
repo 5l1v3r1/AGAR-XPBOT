@@ -5,7 +5,9 @@
   "main": "src/Facebots.js",
   "dependencies": {
     "agario-client": "latest",
-    "forever-monitor" : "latest"},
+    "forever-monitor" : "latest",
+    "socks": "latest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/camilleeyries/AGAR-XPBOT"
