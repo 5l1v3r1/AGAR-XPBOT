@@ -78,7 +78,7 @@ Install [**NodeJs**] (https://nodejs.org/en/download/package-manager/) and [**Gi
 ![Screenshot-3](src/images/Screenshot-3.png "Screenshot-3")
 
 # Contributors
-#### Author: [Camille Eyriès - ME(arfarf)](https://github.com/camilleeyries)
+#### Author: [jesuiscamille - ME(arfarf)](https://github.com/jesuiscamille)
 
 #### Contributors: [hassanila97](https://github.com/hassanila97), [Petterholm](https://github.com/petterholm), [pulviscriptor](https://github.com/pulviscriptor)
 
@@ -87,6 +87,6 @@ Install [**NodeJs**] (https://nodejs.org/en/download/package-manager/) and [**Gi
 
 # Links
 
--AgarVIPbots.com 
+-AgarVIPbots.com
 
 <img src="http://forthebadge.com/images/badges/built-with-love.svg" alt="<3" width="30%"/>
